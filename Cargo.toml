@@ -1,0 +1,19 @@
+[package]
+name = "material_design_icons"
+version = "1.0.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[build-dependencies]
+anyhow = { version = "*" }
+syn = { version = "*", features = ["full"] }
+quote = { version = "*" }
+proc-macro2 = { version = "*" }
+heck = { version = "0.4" }
+
+[features]
+snake_case = []
+screaming_snake_case = []
+upper_camel_case = []
+lower_camel_case = []
