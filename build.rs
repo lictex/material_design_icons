@@ -37,8 +37,6 @@ fn checkout() -> Result<()> {
         std::process::Command::new("git")
             .args(&[
                 "clone",
-                "--depth",
-                "1",
                 "https://github.com/Templarian/MaterialDesign",
                 "./",
             ])
